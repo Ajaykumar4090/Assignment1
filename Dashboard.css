@@ -1,0 +1,128 @@
+/* Dashboard.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.widget {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widget h3 {
+    margin: 0;
+}
+
+.widget p {
+    margin: 0;
+    color: #6c757d;
+}
+
+.widget button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.widget button:hover {
+    background-color: #c82333;
+}
+
+.add-widget-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.add-widget-form input {
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.add-widget-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-widget-form button:hover {
+    background-color: #218838;
+}
+
+.search-bar {
+    margin-bottom: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.add-category-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.add-category-button:hover {
+    background-color: #0056b3;
+}
+
+.search{
+    margin: 5px;
+}
+.search-bar{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #0056b3;
+    font-size: 14px;
+    color: #007bff;
+}
